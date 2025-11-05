@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    tools:ignore="SpeakableTextPresentCheck">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:text="Zgłoś na komende"
+            android:textSize="30dp"/>
+
+        <EditText
+            android:id="@+id/editTextText"
+            android:layout_width="match_parent"
+            android:layout_height="115dp"
+            android:ems="10"
+            android:inputType="text"
+            android:text="Nazwa osobnika:" />
+        <EditText
+            android:id="@+id/editTextText2"
+            android:layout_width="match_parent"
+            android:layout_height="115dp"
+            android:ems="10"
+            android:inputType="text"
+            android:text="Nazwisko osobnika:" />
+        <EditText
+            android:id="@+id/editTextText3"
+            android:layout_width="match_parent"
+            android:layout_height="115dp"
+            android:ems="10"
+            android:inputType="text"
+            android:text="wiek osobnika:" />
+        <EditText
+            android:id="@+id/editTextText4"
+            android:layout_width="match_parent"
+            android:layout_height="115dp"
+            android:ems="10"
+            android:inputType="text"
+            android:text="Imie ojca osobnika:" />
+        <EditText
+            android:id="@+id/editTextText5"
+            android:layout_width="match_parent"
+            android:layout_height="115dp"
+            android:ems="10"
+            android:inputType="text"
+            android:text="Imie matki osobnika:" />
+        <EditText
+            android:id="@+id/editTextText6"
+            android:layout_width="match_parent"
+            android:layout_height="115dp"
+            android:ems="10"
+            android:inputType="text"
+            android:text="PESEL osobnika:" />
+        <EditText
+            android:id="@+id/editTextText7"
+            android:layout_width="match_parent"
+            android:layout_height="115dp"
+            android:ems="10"
+            android:inputType="text"
+            android:text="nr karty kredytowej osobnika:" />
+        <EditText
+            android:id="@+id/editTextText8"
+            android:layout_width="match_parent"
+            android:layout_height="115dp"
+            android:ems="10"
+            android:inputType="text"
+            android:text="data przeterminowania karty osobnika:" />
+        <EditText
+            android:id="@+id/editTextText9"
+            android:layout_width="match_parent"
+            android:layout_height="115dp"
+            android:ems="10"
+            android:inputType="text"
+            android:text="cvv karty osobnika:" />
+        <EditText
+            android:id="@+id/editTextText10"
+            android:layout_width="match_parent"
+            android:layout_height="115dp"
+            android:ems="10"
+            android:inputType="text"
+            android:text="opis osobnika:" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Prześlij zgłoszenie" />
+    </LinearLayout>
+
+</ScrollView>
