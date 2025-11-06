@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <androidx.gridlayout.widget.GridLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:text="Powtórz hasło: "
+        app:layout_column="0"
+        app:layout_row="4"></TextView>
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        app:layout_column="1"
+        app:layout_row="4"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck"></EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REJESTRACJA"
+        app:layout_column="1"
+        app:layout_row="0"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_row="1"
+        app:layout_column="0"
+        android:text="Wprowadź login: ">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_row="2"
+        app:layout_column="0"
+        android:text="Wprowadź email: ">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_row="3"
+        app:layout_column="0"
+        android:text="Wprowadź hasło: ">
+    </TextView>
+
+    <EditText
+        android:layout_width="299dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        app:layout_column="1"
+        app:layout_row="2"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck"></EditText>
+
+    <EditText
+        android:layout_width="299dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        app:layout_column="1"
+        app:layout_row="1"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck"></EditText>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        app:layout_column="1"
+        app:layout_row="3"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck"></EditText>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="179dp"
+        android:layout_height="62dp"
+        android:text="Zarejestruj"
+        app:layout_column="1"
+        app:layout_row="5" />
+
+
+</androidx.gridlayout.widget.GridLayout>
