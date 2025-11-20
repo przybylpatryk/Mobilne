@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Zadanie" parent="Theme.MaterialComponents.DialogWhenLarge">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.Zadanie" parent="Base.Theme.Zadanie" />
+</resources>
+<!--
+Testowane motywy:
+Theme.MaterialComponents.Light.DarkActionBar
+Theme.Material3.Dark
+Theme.MaterialComponents.NoActionBar.Bridge
+Theme.AppCompat.DayNight
+Theme.AppCompat.Light.Dialog.Alert
+Theme.MaterialComponents.DialogWhenLarge
+-->
