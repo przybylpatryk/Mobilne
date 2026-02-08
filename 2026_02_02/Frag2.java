@@ -1,5 +1,6 @@
 package com.example.zadanie;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -7,6 +8,7 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -58,7 +60,23 @@ public class Frag2 extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_frag2, container, false);
+
+        View view = inflater.inflate(R.layout.fragment_frag2, container, false);
+
+        Bundle bundle = getArguments();
+        String mail = bundle.getString("mail");
+        String name = bundle.getString("name");
+        String surname = bundle.getString("surname");
+
+        final TextView txt = view.findViewById(R.id.textView2);
+        txt.setText(mail);
+
+        final TextView txt2 = view.findViewById(R.id.textView7);
+        txt2.setText(name);
+
+        final TextView txt3 = view.findViewById(R.id.textView8);
+        txt3.setText(surname);
+
+        return view;
     }
 }
