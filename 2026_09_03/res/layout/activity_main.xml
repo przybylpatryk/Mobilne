@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/beige"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/banner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gra w kości. Autor: 18"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:padding="5dp"
+        android:textColor="@color/white"
+        android:background="@color/brown"
+        android:textSize="35sp" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RZUĆ KOŚĆMI"
+        android:backgroundTint="@color/chocolate"
+        android:textColor="@color/white"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center" />
+
+    <LinearLayout
+        android:id="@+id/hor_lay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/white" >
+
+
+        <ImageView
+            android:id="@+id/dice_idx_1"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:layout_margin="9dp"
+            app:srcCompat="@drawable/question" />
+
+        <ImageView
+            android:id="@+id/dice_idx_2"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:layout_margin="9dp"
+            app:srcCompat="@drawable/question" />
+
+        <ImageView
+            android:id="@+id/dice_idx_3"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:layout_margin="9dp"
+            app:srcCompat="@drawable/question" />
+
+        <ImageView
+            android:id="@+id/dice_idx_4"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:layout_margin="9dp"
+            app:srcCompat="@drawable/question" />
+
+        <ImageView
+            android:id="@+id/dice_idx_5"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:layout_margin="9dp"
+            app:srcCompat="@drawable/question" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/out1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wynik tego losowania: "
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:id="@+id/out2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wynik gry: "
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RESETUJ WYNIK"
+        android:backgroundTint="@color/chocolate"
+        android:textColor="@color/white"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center" />
+
+</LinearLayout>
